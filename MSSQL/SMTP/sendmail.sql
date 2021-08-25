@@ -30,12 +30,12 @@ GO
 EXECUTE msdb.dbo.sysmail_add_account_sp  
     @account_name = 'company.com',  
     @description = 'company account for sending outgoing notifications.',  
-    @email_address = 'webmaster@company.com',  
+    @email_address = 'user@company.com',  
     @display_name = 'Automated Mailer',  
     @mailserver_name = 'smtp-relay.gmail.com',
     @port = 587,
     @enable_ssl = 1,
-    @username = 'webmaster@company.com',
+    @username = 'user@company.com',
     @password = 'password' ;  
 GO
 
