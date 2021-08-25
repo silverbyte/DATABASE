@@ -36,7 +36,7 @@ EXECUTE msdb.dbo.sysmail_add_account_sp
     @port = 587,
     @enable_ssl = 1,
     @username = 'webmaster@company.com',
-    @password = 'halpern2400' ;  
+    @password = 'password' ;  
 GO
 
 
